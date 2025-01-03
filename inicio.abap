@@ -36,3 +36,32 @@ DO 5 TIMES.
   lv_counter = sy-index.
   WRITE: / 'Iteration:', lv_counter.
 ENDDO.
+
+* FUNÇÃO
+REPORT z_function_example.
+
+DATA: result TYPE i.
+
+CALL FUNCTION 'ABAP_CALCULATION'
+  EXPORTING
+    number1 = 10
+    number2 = 20
+  IMPORTING
+    sum = result.
+
+WRITE: 'Sum:', result.
+
+* SUBROTINA
+REPORT z_subroutine_example.
+
+FORM calculate USING num1 TYPE i
+                      num2 TYPE i
+                      result TYPE i.
+  result = num1 + num2.
+ENDFORM.
+
+DATA: lv_result TYPE i.
+
+PERFORM calculate USING 5 10 lv_result.
+
+WRITE: 'Result:', lv_result.
