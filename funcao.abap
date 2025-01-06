@@ -13,4 +13,3 @@ CALL FUNCTION 'ABAP_CALCULATION'
 WRITE: 'Soma:', result.
 
 *-------------------------------
-
