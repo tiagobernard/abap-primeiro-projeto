@@ -7,7 +7,7 @@
 * MOD resto da divisão
 * ** expoente
 
-REPORT: Z_OP_ARITIMETICOS.
+REPORT Z_OP_ARITIMETICOS.
 
 DATA: V_NOTA1 TYPE P,
 	  V_NOTA2 TYPE P,

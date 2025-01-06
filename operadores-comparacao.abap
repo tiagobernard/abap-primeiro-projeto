@@ -6,7 +6,7 @@
 * >= ou GE maior ou igual
 * <= ou LE menor ou igual
 
-REPORT: Z_COMPARACAO
+REPORT Z_COMPARACAO
 
 DATA: V_NOTA1 TYPE P,
       V_NOTA2 TYPE P,
