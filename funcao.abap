@@ -10,4 +10,7 @@ CALL FUNCTION 'ABAP_CALCULATION'
   IMPORTING
     sum = result.
 
-WRITE: 'Sum:', result.
+WRITE: 'Soma:', result.
+
+*-------------------------------
+
