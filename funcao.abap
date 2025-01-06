@@ -1,15 +1,13 @@
 * FUNÇÃO
-REPORT z_function_example.
+REPORT z_function_exemple.
 
-DATA: result TYPE i.
+DATA: resultado TYPE p DECIMALS 2.
 
-CALL FUNCTION 'ABAP_CALCULATION'
+CALL FUNCTION 'CALCULATE_NEW_PRICE'
   EXPORTING
-    number1 = 10
-    number2 = 20
+    numero1 = 10,00
+    numero2 = 20,00
   IMPORTING
-    sum = result.
+    soma = resultado.
 
-WRITE: 'Soma:', result.
-
-*-------------------------------
+WRITE: 'Soma: ', resultado.
