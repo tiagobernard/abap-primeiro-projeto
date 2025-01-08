@@ -1,11 +1,11 @@
 * IF/ELSE
-REPORT z_if_example.
+REPORT z_exemplo_if_else.
 
-DATA: gv_age TYPE i.
-gv_age = 18.
+DATA: gv_idade TYPE i.
+gv_idade = 18.
 
-IF gv_age >= 18.
-  WRITE: 'You are an adult.'.
+IF gv_idade >= 18.
+  WRITE: 'Você é adulto.'.
 ELSE.
-  WRITE: 'You are a minor.'.
+  WRITE: 'Você é menor de idade.'.
 ENDIF.
