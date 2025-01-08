@@ -1,9 +1,9 @@
 * LOOP
-REPORT z_loop_example.
+REPORT z_exemplo_loop.
 
-DATA: lv_counter TYPE i.
+DATA: lv_contador TYPE i.
 
 DO 5 TIMES.
-  lv_counter = sy-index.
-  WRITE: / 'Iteration:', lv_counter.
+  lv_contador = sy-index.
+  WRITE: / 'Interação:', lv_contador.
 ENDDO.
