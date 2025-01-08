@@ -4,7 +4,7 @@ REPORT z_variables_example.
 DATA: gv_text TYPE string, 
       gv_number TYPE i.
 
-gv_text = 'ABAP Programming'.
+gv_text = 'Programação ABAP'.
 gv_number = 123.
 
 WRITE: / 'Texto:', gv_text,
