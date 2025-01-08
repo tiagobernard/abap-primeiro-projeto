@@ -7,5 +7,5 @@ DATA: gv_text TYPE string,
 gv_text = 'ABAP Programming'.
 gv_number = 123.
 
-WRITE: / 'Text:', gv_text,
-       / 'Number:', gv_number.
+WRITE: / 'Texto:', gv_text,
+       / 'Número:', gv_number.
