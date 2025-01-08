@@ -12,4 +12,4 @@ DATA: lv_resultado TYPE i.
 
 PERFORM calcular USING 5 10 CHANGING lv_resultado.
 
-WRITE: 'Resultado:', lv_resultado.
+WRITE: 'Resultado: ', lv_resultado.
