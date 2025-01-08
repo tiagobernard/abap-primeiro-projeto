@@ -1,14 +1,15 @@
 * SUBROTINA
-REPORT z_subroutine_example.
+REPORT z_exemplo_subrotina.
 
-FORM calculate USING num1 TYPE i
+FORM calcular USING num1 TYPE i
                       num2 TYPE i
-                      result TYPE i.
-  result = num1 + num2.
+                      resultado TYPE i
+              CHANGING resultado TYPE i.
+  resultado = num1 + num2.
 ENDFORM.
 
-DATA: lv_result TYPE i.
+DATA: lv_resultado TYPE i.
 
-PERFORM calculate USING 5 10 lv_result.
+PERFORM calcular USING 5 10 CHANGING lv_resultado.
 
-WRITE: 'Result:', lv_result.
+WRITE: 'Resultado:', lv_resultado.
