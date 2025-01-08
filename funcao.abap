@@ -1,5 +1,5 @@
 * FUNÇÃO
-REPORT z_function_exemple.
+REPORT z_exemplo_funcao.
 
 DATA: resultado TYPE p DECIMALS 2.
 
