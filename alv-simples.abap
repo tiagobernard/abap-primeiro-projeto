@@ -21,3 +21,5 @@ IF it_sflight IS NOT INITIAL.
 ELSE.
     MESSAGE 'Não existem registros na tabela SFLIGHT. ' TYPE 'I'.
 ENDIF.
+
+
